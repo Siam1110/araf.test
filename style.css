@@ -60,18 +60,19 @@ body{
 }
 @media (max-width: 1080px) and (min-width: 100px){
     #header{
+        height: 50px;
         border-bottom: 1.2px solid white;
         padding-left: 0;
-        padding-right: 10;
+        padding-right: 10px;
     }
     #navbar{
-        column-gap: 0.4rem;
+        column-gap: 0.6rem;
         flex-wrap: wrap;
         width: 150px;
         height: 50px;
     }
     #navbar a {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
     .name{
         font-size: 1rem;
