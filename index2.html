@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araf Aiyan Siam | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;    
+        font-family: cursive;
+    }
+    #header{
+        background-color: #34435E;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1.5px solid white;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    #namelogo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    #logo img{
+        height: 100px;
+        width: 50px;
+    }
+    #dis{
+        margin-left: 15px;
+    }
+    .name{
+        font-family:'Times New Roman';
+        font-size: 2rem;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    #name2{
+        font-size: 0.8rem;
+    }
+    #navbar{
+        height: 100px;
+        width: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+    #navbar a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 1.1rem;
+        font-weight: 200;
+        transition: 0.4s ease-in-out  ;
+    }
+    #navbar a:hover{
+        color: #D1FFD7;
+        font-size: 1.3rem;
+        border-bottom: 2px solid white;
+    }
+    body{
+        background-color: #34435E;
+    }
+    @media (max-width: 1080px) and (min-width: 100px){
+        #header{
+            border-bottom: 1.2px solid white;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        #navbar{
+            column-gap: 0.4rem;
+            flex-wrap: wrap;
+            width: 150px;
+            height: 50px;
+        }
+        #navbar a {
+            font-size: 0.5rem;
+        }
+        .name{
+            font-size: 1rem;
+        }
+        #name2{
+            font-size: 0.5rem;
+        }
+        #namelogo{
+            width: 190px;
+        }
+        #logo img{
+            height: 66.66px;
+            width: 33.34px;
+        }
+        #dis{
+        width: 300px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div id="namelogo">
+        <div id="logo">
+            <img src="Logo-Test-04 (1).png" alt="Araf Aiyan Siam Logo">
+        </div>
+        <div id="dis">
+                <p class="name">Araf Aiyan Siam</p>
+                <p class="name" id="name2">A full stack web developer</p>
+        </div>
+        </div>
+        <div id="navbar">
+            <div>
+                <a href="index2.html" id="nav1">
+                    Home
+                </a>
+            </div>
+            <div>    
+                <a href="#" id="nav2">
+                    Portfolio
+                </a>
+            </div>
+            <div>
+                <a href="#" id="nav3">
+                    Services
+                </a>
+            </div>
+            <div>
+                <a href="#" id="nav4">
+                    About
+                </a>
+            </div>
+            <div>
+                <a href="#" id="nav5">
+                    Blog
+                </a>
+            </div>
+            <div>
+                <a href="#" id="nav6">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
